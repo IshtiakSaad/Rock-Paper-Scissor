@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.container{
+    margin: 10px auto;
+    display: flex;
+    max-width: 800px;
+    min-height: 80vh;
+    border: 1px solid gray;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    max-width: 200px;
+    height: 275px;
+}
+.gamePlay{
+    padding-top: 50px;
+    text-align: center;
+}
+.points{
+    padding-bottom: 10px;
+}
